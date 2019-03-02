@@ -1,0 +1,83 @@
+html{scroll-behavior: smooth;}
+li{list-style: none;}
+a{text-decoration: none;}
+body{}
+
+.menu{margin: 0; padding: 0; left:914px; top: 15px;position: fixed; display: inline; z-index: 1;}
+.menu li{margin: 0 40px; transition: 0.5s; padding-top: 20px; padding-bottom: 20px;  float: left;}
+.menu li a{display: block; position: relative; text-decoration: none; padding: 5px; font-family: sans-serif; color:#fff; background: #12342d; text-transform: uppercase; transition: 0.5s; font-size: 25px}
+.menu:hover li a{transform: scale(1.5); opacity: .2; filter: blur(3px);}
+.menu li a:hover{transform: scale(2); opacity: 1; filter: blur(0);}
+
+
+#section1{height:950px; width: 1700px; background: url("../images/homebg.png") no-repeat; background-size: cover; background-position: center; margin: -30px auto;}
+#home{margin: 0; padding: 0; visibility: hidden;}
+.sec1 {padding: 160px 0;}
+.sec1 h1 {text-transform: capitalize;text-align: center; font-family: sans-serif; font-size: 50px; margin-bottom: 20px;}
+.sec1 p {text-transform: uppercase; text-align: center; font-family: sans-serif; font-size: 60px; padding-top: 20px; margin-bottom: 160px;}
+.sec2 p {text-align: center; font-size: 25px; line-height: normal;}
+
+#section2{height: 950px; width: 1700px; margin: 0 auto;}
+#section2 #aboutme {font-family: 'daum'; border-bottom: 1px solid #12342d; text-transform: uppercase; text-align: center; padding-top: 100px; margin-bottom: 50px; color:#12342d;}
+#section2 #photo{width: 150px; padding-right: 20px; float: left; position: relative; top: 90px; left: 100px;}
+
+#section2 #subSec1 {width: 690px; margin: 0; padding-top: 20px;}
+#section2 #subSec1 #profile{text-align: center; text-transform: uppercase; font-size: 20px; font-weight: bold; font-family: sans-serif; color: #12342d; position: relative; right: 97px;}
+
+#section2 #ahn{font-size: 25px; color: #000; position: relative; top: 45px; left: 120px;}
+#section2 small{font-size: 20px; color: #000; position: relative; top: 45px; left: 120px;}
+#section2 #info {width: 200px; margin: 0; font-size: 15px; color: #000; position: relative; bottom: 15px; left: 290px; }
+#section2 #info li {line-height: 25px;  font-family: 'daum' }
+
+#section2 #subSec2 {width: 300px; float: left;  position: relative; bottom: 225px; left: 500px; display: inline;}
+#section2 #subSec2 #char {color: #000;}
+#section2 #subSec2 #char li {font-size: 20px; list-style: circle; font-size: 15px; line-height: 60px;  font-family: 'daum'}
+
+
+#section2 #subSec3 #history_p {text-transform: uppercase; font-size: 20px; font-weight: bold; font-family: sans-serif; display: inline; color: #12342d; position: relative; bottom: 268px; left: 600px;}
+#section2 #subSec3 ul {font-size: 15px; position: relative; bottom: 233px; left: 600px;}
+#section2 #subSec3 ul li {line-height: 30px; list-style: outside;  font-family: 'daum'}
+#section2 #subSec3 ul li:nth-child(2) {position: relative; left: 150px;}
+#section2 #subSec3 ul li:nth-child(3) {position: relative; left: 350px;}
+
+
+#section2 #subSec4 #skills_p {text-align: center; text-transform: uppercase; font-size: 20px; font-weight: bold; font-family: sans-serif; color: #12342d; position: relative; bottom: 150px; right: 675px;}
+
+#section3{height: 950px; width: 1700px; margin: 0 auto;  background: #d4d4d4;}
+#section3 #portpolio{font-family: 'daum'; border-bottom: 1px solid #12342d; text-transform: uppercase; text-align: center; padding-top: 100px; margin-bottom: 50px; color:#12342d;}
+#section3 .portpolioinfo{margin: 0; padding: 0}
+#section3 .portpolioinfo h3{font-size: 30px; position: relative; top: 140px; left: 92px; }
+#section3 .portpolioinfo p {font-size: 20px; position: relative; top: 160px; left: 98px;}
+#section3 .portpolioinfo ul {font-size: 20px; position: relative; top: 260px; left: 98px;}
+#section3 .portpolioinfo ul li{list-style: circle; line-height: 50px;}
+#section3 img{width:900px; text-align: left; position: relative; left: 550px; bottom: 200px;}
+
+#section4 {height: 600px; width: 1700px; margin: 0 auto;}
+#section4 #contact{font-family: 'daum'; border-bottom: 1px solid #12342d; text-transform: uppercase; text-align: center; color:#12342d; padding-top: 100px; margin-bottom: 50px;}
+.container {position: relative; top: 50%; left: 30%; transform: translate(-50%,-50%);}
+.container .box {width: 25%; float: left;}
+.container .box h3 {text-align: center; text-transform: uppercase;}
+.container .box .chart {width: 180px; height: 180px; position: relative; margin: 0 auto; text-align: center; font-size: 35px; line-height: 180px;}
+.container .box canvas {position: absolute; top:0; left:0}
+
+.abc{float: left; position: relative; top: 30px; left:250px; }
+.abc h3 {color: #000; font-family: sans-serif; text-transform: capitalize; text-align: center;line-height: 50px;}
+.abc p {color: #12342d; font-family: sans-serif; font-weight: bold; border-bottom: 1px solid #12342d; padding-bottom: 5px; text-align: center;}
+.abc #name_p {text-transform: uppercase; font-size: 35px;}
+.abc #number_p {font-size: 25px;}
+.abc #email_p {font-size: 25px;}
+.contact_box {margin-top: 10px; padding: 40px; width: 600px; background: #fff; position: absolute; left: 50%;border: 1px solid #12342d; box-sizing: border-box; }
+.contact_box h2{margin: 0 150px 40px; padding: 0; color:#12342d; text-transform: uppercase;}
+.contact_box input{padding: 10px 150px; margin-left: 85px; margin-bottom: 30px;}
+.contact_box textarea{height:50px; padding: 10px 5px; margin-left: 85px; margin-bottom: 20px;}
+.contact_box input, .contact_box textarea{width:350px; box-sizing: border-box; box-shadow: none; outline: none; border: none; border-bottom: 2px solid #999;}
+
+#submit{height: 40px; border-bottom: none; cursor: pointer; background: #12342d; color:#fff; margin-bottom: 0; text-transform: uppercase;}
+.contact_box form div{position: relative;}
+#label1{position: absolute; top: 0px; pointer-events: none; text-transform: uppercase; background: #12342d; color: #fff; padding: 0 4px;}
+#label2{position: absolute; top: 1px; pointer-events: none; text-transform: uppercase; background: #12342d; color: #fff; padding: 0 4px;}
+#label3{position: absolute; top: 10px; pointer-events: none; text-transform: uppercase; background: #12342d; color: #fff; padding: 0 4px;}
+
+
+footer {height: 80px; width: 1700px; text-align: center; margin: 0 auto; text-transform: uppercase;  background: #d4d4d4;}
+footer p {padding-top: 30px;}
